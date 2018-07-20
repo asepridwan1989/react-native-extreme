@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware } from 'redux'
 import thunk from 'redux-thunk';
-import figureReducer from './reducers'
+import gameReducer from './reducers'
 
-const store = createStore(figureReducer, applyMiddleware(thunk))
+const store = createStore(gameReducer)
 
 export default store
