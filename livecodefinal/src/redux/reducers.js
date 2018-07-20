@@ -1,5 +1,5 @@
 const initialState = {
-  
+
 }
 
 const gameReducer = (state = initialState , action) => {
@@ -7,4 +7,4 @@ const gameReducer = (state = initialState , action) => {
   return state
 }
 
-export default figureReducer
+export default gameReducer
